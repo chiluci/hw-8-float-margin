@@ -35,10 +35,6 @@
     float: right;
 }
 .layout__box--big {
-    width: 175px;
-    height: 150px;
-    margin: 10px;
-    right: 50px;
     float: left;
 }
 .layout__container--right {
@@ -57,6 +53,8 @@
 }
 .layout__box--second-right {
     float: right;
+}
+.layout__box--big, .layout__box--second-right{
     width: 175px;
     height: 150px;
 }
